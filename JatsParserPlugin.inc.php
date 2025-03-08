@@ -36,7 +36,8 @@ class JatsParserPlugin extends GenericPlugin {
 				HookRegistry::register('Schema::get::publication', array($this, 'addToSchema'));
 				HookRegistry::register('LoadHandler', array($this, 'loadFullTextAssocHandler'));
 				HookRegistry::register('Publication::edit', array($this, 'editPublicationFullText'));
-				HookRegistry::register('Templates::Article::Main', array($this, 'displayFullText'));
+				//HookRegistry::register('Templates::Article::Main', array($this, 'displayFullText'));
+				HookRegistry::register('Templates::Article::JatsParserFullText', array($this, 'displayFullText')); // Added by UNLa
 				HookRegistry::register('TemplateManager::display', array($this, 'themeSpecificStyles'));
 				HookRegistry::register('Form::config::before', array($this, 'addCitationsFormFields'));
 				HookRegistry::register('Publication::edit', array($this, 'editPublicationReferences'));

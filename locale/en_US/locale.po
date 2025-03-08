@@ -18,10 +18,10 @@ msgid "plugins.generic.jatsParser.description"
 msgstr "The plugin transforms JATS XML into HTML and PDF for viewing on the journal's front-end"
 
 msgid "plugins.generic.jatsParser.article.fulltext.availableLocale"
-msgstr "Full-text of the article is available for this locale:"
+msgstr "Full-text of the article is available for this language:"
 
 msgid "plugins.generic.jatsParser.article.fulltext.availableLocales"
-msgstr "Full-text of the article is available for these locales:"
+msgstr "Full-text of the article is available for these languages:"
 
 msgid "plugins.generic.jatsParser.workflow.settings"
 msgstr "JATS Parser Settings"
